@@ -1,0 +1,13 @@
+params = generate_params('./contrast',[{[200,100,100,80]},{[800,400,100,80]},{[1000,601,100,80]}]);
+params.output_folder = './result';
+params.mode = 1;
+params.pics_each_row = 3;
+params.rect_line_width = 5;
+params.save_each_crop_image = 0;
+params.scale = [3 2 3];
+params.down_margin = 10;
+params.right_margin = 10;
+params.margin = 10;
+params.side = 0;
+%params.radius = 0.8;
+muti_func_draw_rect(params);
