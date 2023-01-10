@@ -7,7 +7,7 @@ params.img_folder_path = img_foler_path;
 params.rect_position_vis = rect_position_vis;
 params.rect_line_width = 4;
 params.down_margin = 2;
-params.right_margin = 2
+params.right_margin = 2;
 params.margin = 2;
 if length(rect_position_vis) == 1
     params.rect_line_color = {[1 0 0]};
